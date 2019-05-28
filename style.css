@@ -425,25 +425,41 @@ header .fa-star:hover {
         justify-content: center;
         text-align: center;
     }
-    hr {
-        width: 30%;
-        height: 0;
-    }
     .date p {
         font-size: 13px;
         font-weight: 600;
         color: #1d1c1d;
     }
     .messages p {
-        font-size: 12px;
+        font-size: 11px;
     }
     .messages figure>img {
         height: 35px;
     }
     #video img {
-        width: 250px;
+        width: 230px;
     }
     #video {
-        width: 260px;
+        width: 250px;
+    }
+    .chat-search {
+        display: none;
+    }
+    .chat-icons {
+        display: none;
+    }
+    .channels ul {
+        display: none;
+    }
+    .date hr {
+        display: none;
+    }
+    .date p {
+        border-bottom: 1px solid #616061;
+        color: #1d1c1d;
+        width: 100%;
+    }
+    .armia {
+        padding: 0;
     }
 }
