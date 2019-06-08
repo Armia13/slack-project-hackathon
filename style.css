@@ -67,9 +67,16 @@ aside input {
     background-color: #260127;
     border: none;
     padding: 5px 5px;
-    margin: 6px 0px;
-    border-radius: 5px;
+    margin: 3px 0px;
     font: 400 15px 'Lato', sans-serif;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #260127;
+    border-radius: 5px;
+    padding: 0px 5px;
 }
 
 .threads {
@@ -297,6 +304,47 @@ hr {
 #type-msg .fa-plus {
     border-right: 1.3px solid #868686;
     padding: 5px;
+}
+
+.fa-thumbs-up {
+    color: #fec31e;
+    font-size: 18px;
+    padding: 0 3px;
+}
+
+.reaction {
+    display: inline;
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: 800;
+    width: 50px;
+}
+
+.reply {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.reply img {
+    border-radius: 4px;
+    height: 30px;
+}
+
+.reply p {
+    color: #1264a3;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 7px;
+}
+
+.reply span {
+    color: #616061;
+    margin-left: 7px;
+    font-weight: 400;
 }
 
 /* chat hover style */
